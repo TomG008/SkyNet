@@ -86,7 +86,7 @@ def main(args, record=False):
 
     if args.input:
         raw_img = cv2.imread(args.input)
-        raw_width, raw_height = raw_img.shape[0], raw_img.shape[1]
+        raw_width, raw_height = raw_img.shape[1], raw_img.shape[0]
         solve(raw_img)
         cv2.imshow('my webcam', raw_img)
         cv2.waitKey(0)
