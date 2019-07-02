@@ -22,6 +22,10 @@ The dataset is supposed to be organized as [required](https://d1b10bmlvqabco.clo
 ```
 $ python3 demo.py
 ```
+## Run the demo (images)
+```
+$ python3 demo.py --input=samples/0.jpg
+```
 ## References
 If you find SkyNet useful, please cite the [SkyNet paper](https://arxiv.org/abs/1906.10327):
 ```
