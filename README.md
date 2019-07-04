@@ -1,8 +1,11 @@
 # SkyNet
-This is a repository for SkyNet, a lightweight DNN specialized in object detection. SkyNet has demonstrated on [the 56th IEEE/ACM Design Automation Conference System Design Contest (DAC-SDC)](http://www.cse.cuhk.edu.hk/~byu/2019-DAC-SDC/index.html) by helping our GPU team, iSmart3-SkyNet, and FPGA team, iSmart3, win the first place winner award for both GPU and FPGA tracks. It can deliver 0.7312 Intersection over Union (IoU), 67.33 frames per second (FPS) and 0.7160 IoU, 25.05 FPS using TX2 GPU and Ultra96 FPGA, respectively.
+This is a repository for SkyNet, a lightweight DNN specialized in object detection. SkyNet is demonstrated in [the 56th IEEE/ACM Design Automation Conference System Design Contest (DAC-SDC)](http://www.cse.cuhk.edu.hk/~byu/2019-DAC-SDC/index.html), a low power object detection challenge in images captured by unmanned aerial vehicles (UAVs). SkyNet won the first place award for both the GPU and FPGA tracks of the contest: we deliver 0.731 Intersection over Union (IoU) and 67.33 frames per second (FPS) on a TX2 GPU and deliver 0.716 IoU and 25.05 FPS on an Ultra96 FPGA.
 
-The team members of iSmart3-SkyNet are: Xiaofan Zhang*, Haoming Lu*, Jiachen Li, Cong Hao, Yuchen Fan, Yuhong
+The GPU team (iSmart3-SkyNet) members are: Xiaofan Zhang*, Haoming Lu*, Jiachen Li, Cong Hao, Yuchen Fan, Yuhong
 Li, Sitao Huang, Bowen Cheng, Yunchao Wei, Thomas Huang, Jinjun Xiong, Honghui Shi, Wen-mei Hwu, Deming Chen. 
+
+The FPGA team (iSmart3) members are: Cong Hao*, Xiaofan Zhang*, Yuhong Li, Yao Chen, Xingheng Liu, Sitao Huang, Kyle Rupnow, Jinjun Xiong, Wen-mei Hwu, Deming Chen. 
+
 (*equal contributors)
 
 
