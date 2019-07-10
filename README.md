@@ -34,7 +34,7 @@ If you find SkyNet useful, please cite the [SkyNet paper](https://arxiv.org/abs/
 ```
 @article{zhang2019skynet,
   title={SkyNet: A Champion Model for {DAC-SDC} on Low Power Object Detection},
-  author={Zhang, Xiaofan and Li, Yuhong and Hao, Cong and Rupnow, Kyle and Xiong, Jinjun and Hwu, Wen-mei and Chen, Deming},
+  author={Zhang, Xiaofan and Hao, Cong and Lu, Haoming and Li, Jiachen and Li, Yuhong and Fan, Yuchen and Rupnow, Kyle and Xiong, Jinjun and Huang, Thomas and Shi, Honghui and Hwu, Wen-mei and Chen, Deming},
   journal={arXiv preprint arXiv:1906.10327},
   year={2019}
 }
