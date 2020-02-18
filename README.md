@@ -1,4 +1,7 @@
 # SkyNet
+
+**SkyNet is published as a conference paper at [Conference on Machine Learning and Systems (MLSys)](https://mlsys.org/Conferences/2020/Schedule?type=Oral).**
+
 This is a repository for SkyNet, a lightweight DNN specialized in object detection. SkyNet is demonstrated in [the 56th IEEE/ACM Design Automation Conference System Design Contest (DAC-SDC)](http://www.cse.cuhk.edu.hk/~byu/2019-DAC-SDC/index.html), a low power object detection challenge in images captured by unmanned aerial vehicles (UAVs). SkyNet won the first place award for both GPU and FPGA tracks of the contest: we deliver 0.731 Intersection over Union (IoU) and 67.33 frames per second (FPS) on a TX2 GPU, and deliver 0.716 IoU and 25.05 FPS on an Ultra96 FPGA.
 
 The GPU team (iSmart3-SkyNet) members are: Xiaofan Zhang*, Haoming Lu*, Jiachen Li, Cong Hao, Yuchen Fan, Yuhong
@@ -155,16 +158,16 @@ You are ready to go, good luck!
 ---
 
 # References
-If you find SkyNet useful, please cite the [SkyNet paper](https://arxiv.org/abs/1906.10327):
+If you find SkyNet useful, please cite the [SkyNet paper](https://arxiv.org/abs/1909.09709):
 ```
-@article{zhang2019skynet,
-  title={SkyNet: A Champion Design for {DAC-SDC} on Low Power Object Detection},
-  author={Zhang, Xiaofan and Hao, Cong and Lu, Haoming and Li, Jiachen and Li, Yuhong and Fan, Yuchen and Rupnow, Kyle and Xiong, Jinjun and Huang, Thomas and Shi, Honghui and Hwu, Wen-mei and Chen, Deming},
-  journal={arXiv preprint arXiv:1906.10327},
-  year={2019}
+@inproceedings{zhang2019skynet,
+  title={{SkyNet}: a hardware-efficient method for object detection and tracking on embedded systems},
+  author={Zhang, Xiaofan and Lu, Haoming and Hao, Cong and Li, Jiachen and Cheng, Bowen and Li, Yuhong and Rupnow, Kyle and Xiong, Jinjun and Huang, Thomas and Shi, Honghui and Hwu, Wen-mei and Chen, Deming},
+  booktitle={Conference on Machine Learning and Systems (MLSys)},
+  year={2020}
 }
 ```
-More details regarding the SkyNet design motivations and SkyNet FPGA accelerator design can be found in our [ICML'19 workshop paper](https://arxiv.org/abs/1905.08369) and the [DAC'19 paper](https://arxiv.org/abs/1904.04421), respectively.
+More details regarding the SkyNet design motivations and SkyNet FPGA accelerator design can be found in our [ICML'19 workshop paper](https://arxiv.org/abs/1905.08369) (which won the **Best Poster Award**) and the [DAC'19 paper](https://arxiv.org/abs/1904.04421), respectively.
 ```
 @article{zhang2019bi,
   title={A Bi-Directional Co-Design Approach to Enable Deep Learning on {IoT} Devices},
@@ -177,9 +180,7 @@ More details regarding the SkyNet design motivations and SkyNet FPGA accelerator
 @inproceedings{hao2019fpga,
   title={{FPGA/DNN} Co-Design: An Efficient Design Methodology for {IoT} Intelligence on the Edge},
   author={Hao, Cong and Zhang, Xiaofan and Li, Yuhong and Huang, Sitao and Xiong, Jinjun and Rupnow, Kyle and Hwu, Wen-mei and Chen, Deming},
-  booktitle={Proceedings of the 56th Annual Design Automation Conference},
-  pages={206},
-  year={2019},
-  organization={ACM}
+  booktitle={Proceedings of the 56th ACM/IEEE Design Automation Conference (DAC)},
+  year={2019}
 }
 ```
