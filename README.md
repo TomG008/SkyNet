@@ -2,7 +2,7 @@
 
 **SkyNet is published as a conference paper at [Conference on Machine Learning and Systems (MLSys)](https://mlsys.org/Conferences/2020/Schedule?type=Oral).**
 
-This is a repository for SkyNet, a lightweight DNN specialized in object detection. SkyNet is demonstrated in [the 56th IEEE/ACM Design Automation Conference System Design Contest (DAC-SDC)](http://www.cse.cuhk.edu.hk/~byu/2019-DAC-SDC/index.html), a low power object detection challenge in images captured by unmanned aerial vehicles (UAVs). SkyNet won the first place award for both GPU and FPGA tracks of the contest: we deliver 0.731 Intersection over Union (IoU) and 67.33 frames per second (FPS) on a TX2 GPU, and deliver 0.716 IoU and 25.05 FPS on an Ultra96 FPGA.
+This is a repository for SkyNet, a Hardware-Efficient Method specialized in object detection and tracking. SkyNet is demonstrated in [the 56th IEEE/ACM Design Automation Conference System Design Contest (DAC-SDC)](http://www.cse.cuhk.edu.hk/~byu/2019-DAC-SDC/index.html), a low power object detection challenge in images captured by unmanned aerial vehicles (UAVs). SkyNet won the first place award for both GPU and FPGA tracks of the contest: we deliver 0.731 Intersection over Union (IoU) and 67.33 frames per second (FPS) on a TX2 GPU, and deliver 0.716 IoU and 25.05 FPS on an Ultra96 FPGA.
 
 The GPU team (iSmart3-SkyNet) members are: Xiaofan Zhang*, Haoming Lu*, Jiachen Li, Cong Hao, Yuchen Fan, Yuhong
 Li, Sitao Huang, Bowen Cheng, Yunchao Wei, Thomas Huang, Jinjun Xiong, Honghui Shi, Wen-mei Hwu, Deming Chen. 
@@ -160,7 +160,7 @@ You are ready to go, good luck!
 # References
 If you find SkyNet useful, please cite the [SkyNet paper](https://arxiv.org/abs/1909.09709):
 ```
-@inproceedings{zhang2019skynet,
+@inproceedings{zhang2020skynet,
   title={{SkyNet}: a hardware-efficient method for object detection and tracking on embedded systems},
   author={Zhang, Xiaofan and Lu, Haoming and Hao, Cong and Li, Jiachen and Cheng, Bowen and Li, Yuhong and Rupnow, Kyle and Xiong, Jinjun and Huang, Thomas and Shi, Honghui and Hwu, Wen-mei and Chen, Deming},
   booktitle={Conference on Machine Learning and Systems (MLSys)},
